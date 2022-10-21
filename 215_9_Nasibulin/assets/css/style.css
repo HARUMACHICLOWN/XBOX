@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */ 
+header{
+    background: #373A3C;
+    padding: 15px;
+}
+.container{
+    margin: 0px;
+}
+.header_line{
+ background-color: #373A3C;
+ display: flex;
+ margin: 10px;
+ margin-bottom: 10px;
+ border-radius: 10px;
+ padding: 0px;
+}
+.header_logo{
+    padding-top: 20px;
+    padding-left: 100px;
+    width: 1069px;
+    height: 38px;
+    left: 163px;
+    top: 25px;
+}
+.header_gms{
+    margin: 5px;
+    border: 0px;
+    display: flex;
+    height: 16px;
+    left: 0px;
+    right: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+}
+/* Intro */
+.intro{
+    width: 100%;
+    height: 610px;
+    background: url("../img/Star-Wars-Battlefront-II-combat.png") no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+/* forth */
+.forth__chapter{
+    height: 480px;
+    background: url("../img/forth-chapter-img.png") no-repeat;
+    background-size: cover;
+    background-position: right top;
+    position: relative;
+    z-index: 1;
+    padding: 70px;
+}
+.first__forth{
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.second__forth{
+    max-width: 533px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.href__forth{
+    display: flex;
+    margin-top: 30px;
+}
+.href_f_forth,.href_second_forth{
+    display: inline-block;
+    color: #fff;
+}
+.href_f_forth{
+    padding: 15px 20px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+}
+.href_second_forth{
+    padding: 15px 20px;
+    background: #8DD83D;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.content__forth{
+    padding: 70px;
+}
+
+/* footer */
+footer{
+    background: #373A3C;
+}
+.title__footer{
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+}
+.content__footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.content__footer>ul>li{
+    font-size: 14px;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+.content__footer>ul>li>i{
+    color: #7DD42F;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.foot{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #c1c1c1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.foot>p{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
